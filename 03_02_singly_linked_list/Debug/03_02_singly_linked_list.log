@@ -1,0 +1,9 @@
+﻿  linkedlist.c
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(38,32): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(42,31): warning C4133: '=': incompatible types - from 'ListNode *' to 'ListNodeType *'
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(72,25): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(75,27): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(96,25): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(58): warning C4716: 'addLLElement': must return a value
+D:\data_d\data_structure_LSJ\03_02_singly_linked_list\linkedlist.c(86): warning C4716: 'removeLLElement': must return a value
+  03_02_singly_linked_list.vcxproj -> D:\data_d\data_structure_LSJ\03_list\Debug\03_02_singly_linked_list.exe

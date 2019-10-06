@@ -1,0 +1,5 @@
+﻿  arraylist.c
+  example03_01.c
+  Generating Code...
+D:\data_d\data_structure_LSJ\03_list\arraylist.c(68,30): warning C4047: '!=': 'int (__cdecl *)(ArrayList *)' differs in levels of indirection from 'int'
+  03_list.vcxproj -> D:\data_d\data_structure_LSJ\03_list\Debug\03_01.exe

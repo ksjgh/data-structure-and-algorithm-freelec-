@@ -1,0 +1,10 @@
+﻿  02_05.c
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(23,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(27,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'float *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(33,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(39,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(48,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(53,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(55,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int **'
+D:\data_d\data_structure_LSJ\02_05_pointer_review\02_05.c(56,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+  02_05_pointer_review.vcxproj -> D:\data_d\data_structure_LSJ\02-01\Debug\02_05_pointer_review.exe

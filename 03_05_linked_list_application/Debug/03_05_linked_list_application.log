@@ -1,0 +1,12 @@
+﻿  example03_05.c
+  linkedlistop.c
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(31,34): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(36,24): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(53,36): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(55,26): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(79,39): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(84,32): warning C4133: '=': incompatible types - from 'ListNodeType *' to 'ListNode *'
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(87,31): warning C4133: '=': incompatible types - from 'ListNode *' to 'ListNodeType *'
+  Generating Code...
+D:\data_d\data_structure_LSJ\03_05_linked_list_application\linkedlistop.c(90,37): warning C4133: '=': incompatible types - from 'ListNode *' to 'ListNodeType *'
+  03_05_linked_list_application.vcxproj -> D:\data_d\data_structure_LSJ\03_list\Debug\03_05_linked_list_application.exe
