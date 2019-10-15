@@ -111,7 +111,7 @@ int checkBracketMatching(char* pSource)
 	pStack = createLinkedStack();
 	if (pStack != NULL) {
 		StackNode node;		
-		// check bracket matching shifting chracters
+		// check bracket matching shifting chracters in string
 		for (i = 0; i < size && ret == TRUE; i++) {
 			symbol = pSource[i];
 			switch (symbol) {
