@@ -14,4 +14,26 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exprlinkedstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exprdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stackcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exprlinkedstack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stackcalc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example04_04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

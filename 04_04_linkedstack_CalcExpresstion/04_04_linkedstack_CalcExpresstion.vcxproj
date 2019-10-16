@@ -123,6 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="exprdef.h" />
+    <ClInclude Include="exprlinkedstack.h" />
+    <ClInclude Include="stackcalc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="example04_04.c" />
+    <ClCompile Include="exprlinkedstack.c" />
+    <ClCompile Include="stackcalc.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

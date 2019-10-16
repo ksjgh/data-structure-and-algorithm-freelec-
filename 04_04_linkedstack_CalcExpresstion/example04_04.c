@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 	pExprTokens[6].type = minus;
 	pExprTokens[6].value = 0;
 
-	printf("Expression: 2 3 4 + 5 * -\n");
+	printf("Expression: 2 3 4 + 5 * -\n"); // -33
 	calcExpr(pExprTokens, 7);
 
 	free(pExprTokens);
