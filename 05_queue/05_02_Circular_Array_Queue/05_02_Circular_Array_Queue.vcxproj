@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{C7F0B617-0880-4FD1-8FE8-2ABD700CA074}</ProjectGuid>
-    <RootNamespace>My0501arrayqueue</RootNamespace>
+    <ProjectGuid>{166246AA-9B42-4628-96D1-6C34B6640ABC}</ProjectGuid>
+    <RootNamespace>My0502CircularArrayQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="arrayqueue.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="arrayqueue.c" />
-    <ClCompile Include="example05_01.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
