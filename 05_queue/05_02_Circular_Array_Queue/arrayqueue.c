@@ -85,7 +85,7 @@ int enqueueAQ(ArrayQueue* pQueue, ArrayQueueNode element)
 
 	if (pQueue != NULL) {
 		if (isArrayQueueFull(pQueue) == FALSE) {
-			pQueue->rear++;
+			pQueue->rear = (pQueue->rear + 1) % pQueue->maxElementCount;
 			pQueue->pElement[pQueue->rear] = element;
 			pQueue->currentElementCount++;
 			ret = TRUE;
@@ -108,7 +108,7 @@ ArrayQueueNode* dequeueAQ(ArrayQueue* pQueue)
 		if (isArrayQueueEmpty(pQueue) == FALSE) {
 			pReturn = (ArrayQueueNode*)malloc(sizeof(ArrayQueueNode));
 			if (pReturn != NULL) {
-				pQueue->front++;
+				pQueue->front = (pQueue->front + 1) % pQueue->maxElementCount;
 				pReturn->data = pQueue->pElement[pQueue->front].data;
 				pQueue->currentElementCount--;
 			}
@@ -131,6 +131,7 @@ ArrayQueueNode* peekAQ(ArrayQueue* pQueue)
 	if (pQueue != NULL) {
 		if (isArrayQueueEmpty(pQueue) == FALSE) {
 			pReturn = &(pQueue->pElement[pQueue->front + 1]);
+			//pReturn = &(pQueue->pElement[(pQueue->front + 1) % pQueue->maxElementCount]);
 			//pReturn = pQueue->pElement + (pQueue->front + 1);
 		}
 	}
@@ -152,8 +153,7 @@ int isArrayQueueFull(ArrayQueue* pQueue)
 {
 	int ret = FALSE;
 	if (pQueue != NULL) {
-		if (pQueue->currentElementCount == pQueue->maxElementCount
-			|| pQueue->rear == pQueue->maxElementCount - 1) {
+		if (pQueue->currentElementCount == pQueue->maxElementCount){
 			ret = TRUE;
 		}
 	}

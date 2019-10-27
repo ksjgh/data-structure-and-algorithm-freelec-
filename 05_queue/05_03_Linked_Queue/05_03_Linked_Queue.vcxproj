@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{166246AA-9B42-4628-96D1-6C34B6640ABC}</ProjectGuid>
-    <RootNamespace>My0502CircularArrayQueue</RootNamespace>
+    <ProjectGuid>{EFBC70D7-2CA3-4E14-833F-F1665D184BAE}</ProjectGuid>
+    <RootNamespace>My0503LinkedQueue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="arrayqueue.c" />
-    <ClCompile Include="example05_02_Circular_Array_Queue.c" />
+    <ClInclude Include="linkedqueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="arrayqueue.h" />
+    <ClCompile Include="example05_03_LinkedQueue.c" />
+    <ClCompile Include="linkedqueue.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
