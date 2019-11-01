@@ -23,6 +23,7 @@
     <ProjectGuid>{52E14113-6776-4127-B214-CFFA2FE37AAF}</ProjectGuid>
     <RootNamespace>My0404Deque</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>05_04_Linked_Deque</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,6 +124,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="linkeddeque.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="example05_04.c" />
+    <ClCompile Include="linkeddeque.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
