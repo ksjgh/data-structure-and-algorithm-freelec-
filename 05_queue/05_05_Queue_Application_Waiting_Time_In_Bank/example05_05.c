@@ -46,9 +46,10 @@ int main(int argc, char* argv[])
 		printWaitQueueStatus(currentTime, pWaitQueue);
 		printf("\n");
 
-		if (currentTime == 6) {
-			int temp=0;
-		}
+		//// debug
+		//if (currentTime == 6) {
+		//	int temp=0;
+		//}
 	}
 
 	// print final result
