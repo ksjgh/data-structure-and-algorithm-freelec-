@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_03_Linked_Queue", "05_03
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_04_Linked_Deque", "04_04_Deque\04_04_Deque.vcxproj", "{52E14113-6776-4127-B214-CFFA2FE37AAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_05_Queue_Application_Waiting_Time_In_Bank", "05_05_Queue_Application_Waiting_Time_In_Bank\05_05_Queue_Application_Waiting_Time_In_Bank.vcxproj", "{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{52E14113-6776-4127-B214-CFFA2FE37AAF}.Release|x64.Build.0 = Release|x64
 		{52E14113-6776-4127-B214-CFFA2FE37AAF}.Release|x86.ActiveCfg = Release|Win32
 		{52E14113-6776-4127-B214-CFFA2FE37AAF}.Release|x86.Build.0 = Release|Win32
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Debug|x64.ActiveCfg = Debug|x64
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Debug|x64.Build.0 = Debug|x64
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Debug|x86.Build.0 = Debug|Win32
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Release|x64.ActiveCfg = Release|x64
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Release|x64.Build.0 = Release|x64
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Release|x86.ActiveCfg = Release|Win32
+		{D76F2DDD-E71C-4022-97B9-C7BEF96D86F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
